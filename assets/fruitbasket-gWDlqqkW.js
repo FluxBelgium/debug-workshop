@@ -1,0 +1,2 @@
+import"./modulepreload-polyfill-B5Qt9EMX.js";const o=(t,n)=>t.find(e=>e.id===n),c=(t,n)=>{const i=o(n,t.id);return i?i.price*t.quantity:0},a=(t,n)=>{let i=0;for(const e of t.items){const r=c(e,n);i+=r}return i},s=[{id:1,name:"Apple",price:1.5},{id:2,name:"Banana",price:.5},{id:3,name:"Orange",price:2.5}],u={id:1,items:[{id:1,quantity:2},{id:2,quantity:3},{id:5,quantity:1}]},d=a(u,s);console.log(`Total price: $${d.toFixed(2)}`);
+//# sourceMappingURL=fruitbasket-gWDlqqkW.js.map
