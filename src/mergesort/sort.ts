@@ -7,7 +7,7 @@ type Comparable = number | string | Date;
  * @param arr the array to sort
  * @returns a new sorted array
  */
-const mergeSort = (arr: Comparable[]): Comparable[] => {
+const mergeSort = <C extends Comparable>(arr: C[]): C[] => {
   // Base case: an array of 0 or 1 elements is already sorted
   if (arr.length === 1) {
     return arr;
