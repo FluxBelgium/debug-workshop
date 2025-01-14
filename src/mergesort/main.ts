@@ -1,7 +1,7 @@
 import sort from "./sort";
 
 const parseNumbers = (input: string): number[] =>
-  input.split(",").map(parseInt);
+  input.split(",").map(parseFloat);
 
 const printNumbers = (input: number[]): string =>
     input.map(String).join(", ");

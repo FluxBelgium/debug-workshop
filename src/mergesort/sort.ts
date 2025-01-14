@@ -9,7 +9,7 @@ type Comparable = number | string | Date;
  */
 const mergeSort = <C extends Comparable>(arr: C[]): C[] => {
   // Base case: an array of 0 or 1 elements is already sorted
-  if (arr.length === 1) {
+  if (arr.length <= 1) {
     return arr;
   }
 
