@@ -6,7 +6,7 @@ export const peekFirst = <T>(arr: T[]) => {
 };
 
 export const removeFirst = <T>(arr: T[]): T | undefined => {
-  // Get the first element of the array
+  // Get the top element of the array
   const first = arr.pop();
 
   return first;
